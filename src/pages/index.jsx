@@ -63,67 +63,48 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> I'm John Carl James Nebab.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I create awesomeness in the web. I am currently working as a Front-end Developer at <a href="https://qarabao.com/">Qarabao</a>.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="Budget Meal"
+            link="https://github.com/CodingBootcamp-SDSTP/NebabJohnCarlJamesBudgetMeal"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            This project was made during my DICT Bootcamp Training in Sta. Rosa City last June 2018.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-          >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
-          </ProjectCard>
-          <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            title="Stepper"
+            link="https://github.com/jnebab/stepper-wizard-assessment"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
-          </ProjectCard>
-          <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
-          >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            This was a sample test for my job interview last January
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={avatar} alt="John Carl James Nebab" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            My close relatives and friends call me <i>Ivan</i>. It was derived from the Russian form of one of my first names -- John. My mom is probably too selfish, she gave me all the names she wanted for her first-born son. I can't say I disagree though. But I still prefer to be called <i>Ivan</i>. Will you?
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          I am a prematurely seven-month born baby and I probably have some under developed physical features here and there. Chill. I am completely a high functioning individual. So, I can just only imagine the possibilities if I was delivered in time. Probably, you're not reading this now and this site might not exist. Yes, I am a great believer of the line - "Everything happens for a reason". And you being here tells me that you're interested to at least know me, no?
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:nebab.johncarl@gmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://twitter.com/old_twenty">Twitter</a> &{' '}
+            <a href="https://www.instagram.com/nh0jjjjj/">Instagram</a>
           </ContactText>
         </Inner>
         <Footer>
